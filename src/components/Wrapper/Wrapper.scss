@@ -1,0 +1,10 @@
+body{
+    min-width: 380px;
+}
+.wrapper{
+    padding-left: 240px;
+    .content{
+        padding: 24px;
+        flex: 1;
+    }
+}

@@ -1,68 +1,34 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Front End (React) Developer Test
 
-## Available Scripts
 
-In the project directory, you can run:
+# Instructions:
+1. Clone the repo
+2. run `npm install`
+3. run `npm start`
+4. open `localhost:3000`
 
-### `yarn start`
+## Frameworks & Tools
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Create a GitHub repository in which you will store the source files. Make sure it is public so we can view it.
+2. Use React JavaScript library for building the application.
+3. Use of Bootstrap, FontAwesome etc. is allowed.
+4. Include a readme file in the root of your repository with instructions for how to deploy and run your app on a fresh machine. You can assume we have already cloned your Git repository, and that Node and NPM are already installed.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Image Database — simulate a back-end database of images as follows:
+1. Select URLs of at least 20 images that are publicly accessible (suggestion: use Google)
+2. Create a JSON file that contains an array of metadata objects for each of the images:
+    * File name
+    * URL
+    * File size
+    * Last-modified date (you can make this up)
+3. The above JSON file will simulate a back-end database of images. When your app accesses this file, it should do so asynchronously, just as calls to back-end APIs are asynchronous.
 
-### `yarn test`
+## Functionality — implement only these features:
+1. When loaded, the app should automatically show the Photos page. Implement the Files, Sharing, etc. routes as well, but they should lead to empty pages that display only a title (as well as the sidebar navigation panel, of course).
+2. Implement the general structure of the page, including all the menu links on the left.  Feel free to utilize any CSS framework of your choice for this purpose (Bootstrap or similar). The page does not need to look exactly the same as on the image, but the general layout should be preserved.
+3. Display the images whose URLs are in our database.
+4. Implement the 3 sorting methods that are shown.
+5. Implement the total image size display that appears at the bottom of the sidebar.
+6. You get bonus points for making the layout responsive.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+> Send us a link to your GitHub repository.
